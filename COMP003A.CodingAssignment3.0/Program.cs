@@ -27,7 +27,7 @@ class Program
         while (exit)
         {
             // Menu choices 1-4
-            Console.WriteLine("\nMenu:\n1. Add an Expense\n2. View Expenses and Budget\n3. Remove an Expense\n4. Exit");
+            Console.WriteLine("\nMenu:\n1. Add Expense\n2. View Expense and Budget\n3. Remove Expense\n4. Exit");
             Console.Write("Enter your choice (1-4): ");
             string menuChoice = Console.ReadLine();
             
